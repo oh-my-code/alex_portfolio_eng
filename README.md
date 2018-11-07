@@ -1,2 +1,1 @@
-# alex_resume
-Alexander Vasilyev Web Developer Resume
+https://oh-my-code.github.io/alex_resume/
