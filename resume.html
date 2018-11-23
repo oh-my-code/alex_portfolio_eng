@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="vendors/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/hover.css">
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -19,10 +20,9 @@
 <div class="container-fluid">
       <div class="row">
         <div class="col-lg-3">
-
           <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#">
-              <p class="d-block d-lg-none sub_text">Alexander Vasilyev - Web Developer</p>
+            <a class="navbar-brand js-scroll-trigger" href="index.html">
+              <p class="d-block d-lg-none sub_text">Alexander Vasilyev</p>
               <div class="title_image d-none d-lg-block">
                 <p>Alexander Vasilyev<br/><span class="subheading">Web Developer</span></p>
                 <img class="img-fluid img-profile" src="img/profile.jpg" alt="">
@@ -39,23 +39,27 @@
 
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="resume.html"role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resume</a>
-
                   <div class="dropdown-menu ml-5" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#skills">My Expertise and Skills</a>
-                    <a class="dropdown-item" href="#">Professional experience</a>
-                    <a class="dropdown-item" href="#">Academic Background</a>
-                    <a class="dropdown-item" href="#">References</a>
+                    <a class="dropdown-item" href="resume.html#skills">My Expertise and Skills</a>
+                    <a class="dropdown-item" href="resume.html#experience">Professional experience</a>
+                    <a class="dropdown-item" href="resume.html#academic">Academic Background</a>
+                    <a class="dropdown-item" href="resume.html#references">References</a>
                   </div>
                 </li>
+
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
+                  <a class="nav-link" href="blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contacts</a>
+                  <a class="nav-link" href="contacts.html">Contacts</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Download CV<i class="fa fa-file-download fa-lg ml-3 download_cv"></i></a>
+                </li>
+
               </ul>
             </div>
           </nav>
@@ -64,7 +68,7 @@
 
 
 
-<main class="col-lg-9" role="main">
+<main class="col-lg-9" role="main" id="skills">
 <div class="right_block">
 
 <div class="mb-4">
@@ -117,7 +121,7 @@
 
 <!--SKILLS-->
 
-<div class="row mb-5" id="skills">
+<div class="row mb-5">
   <div class="col-lg col-md col-sm-12">
 <h4 class="mb-4">Web Dev Skills</h4>
 <div class="mb-2">
@@ -171,7 +175,7 @@
 
 <!--EXPERIENCE-->
 
-<h4><i class="fa fa-briefcase  fa-md mr-3"></i>Professional Experience</h4>
+<h4 id="experience"><i class="fa fa-briefcase  fa-md mr-3"></i>Professional Experience</h4>
   <div class="container mb-5">
   	<div class="row">
   		<div class="col-lg-10 align-self-center ml-lg-5">
@@ -208,9 +212,75 @@
   		</div>
   	</div>
   </div>
+<!-- end of EXPERIENCE -->
 
 
+<!--Academic-->
 
+<h4 id="academic"><i class="fa fa-graduation-cap  fa-md mr-3"></i>Academic Background</h4>
+  <div class="container mb-5">
+  	<div class="row">
+  		<div class="col-lg-10 align-self-center ml-lg-5">
+  			<ul class="timeline">
+  				<li>
+  					<h6 class="red_title">Langara College</h6>
+            <h6>2019 - 2021</h6>
+  					<ul>
+              <li>Diploma: Web & Mobile App Developer</li>
+            </ul>
+  				</li>
+          <li>
+  					<h6 class="red_title">Higher School of Economics, State University</h6>
+            <h6>Sept 2008 – June 2011</h6>
+  					<ul>
+              <li>Bachelor of Marketing Management</li>
+            </ul>
+  				</li>
+          <li>
+  					<h6 class="red_title">Moscow State University of Culture and Arts</h6>
+            <h6>Sept 2002 – June 2007</h6>
+  					<ul>
+              <li>Bachelor of Mass Media and Advertisement Department: Public Relations (First class degree)</li>
+            </ul>
+  				</li>
+  			</ul>
+  		</div>
+  	</div>
+  </div>
+<!-- end of Academic -->
+
+
+<!--Additional-->
+
+<h4 id="academic"><i class="fa fa-book-open  fa-md mr-3"></i>Additional Education</h4>
+  <div class="container mb-5">
+  	<div class="row">
+  		<div class="col-lg-10 align-self-center ml-lg-5">
+  			<ul class="timeline">
+  				<li>
+  					<h6 class="red_title">Coursera online courses</h6>
+            <h6>2018</h6>
+  					<ul>
+              <li>HTML, CSS, JavaScript (University of Michigan, Duke University)</li>
+              <p><a href="https://www.coursera.org/account/accomplishments/certificate/BSSNRUVH6L97" target="_blank">Online certificate JS >></a></br>
+              <a href="https://www.coursera.org/account/accomplishments/certificate/38BCUCVU35WW" target="_blank">Online certificate CSS >></a></p>
+            </ul>
+  				</li>
+          <li>
+  					<h6 class="red_title">De Baak Management Institute, Holland</h6>
+            <h6>November 2011 – January 2012</h6>
+  					<ul>
+              <li>Management Skills Development Course</li>
+            </ul>
+  				</li>
+  			</ul>
+  		</div>
+  	</div>
+  </div>
+<!-- end of Additional -->
+
+
+<h5><a href="portfolio.html">View my Portfolio ></a><h5>
 
 
 
