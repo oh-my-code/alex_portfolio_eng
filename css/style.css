@@ -321,3 +321,18 @@ ul.timeline > li p {
   border-color: #de333b;
   border-width: 0 0 2px 0;
 }
+
+#gallery img {
+  height: 100px;
+  margin-left: 10px;
+  display: inline-block;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+#photo {
+	margin-left: 20px;
+	position: relative;
+}
+#photo img {
+	position: absolute;
+  width: 100%;
+}

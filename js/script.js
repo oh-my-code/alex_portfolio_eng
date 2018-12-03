@@ -13,5 +13,26 @@ $(document).ready(function () {
         $answer.slideUp();
         $(this).removeClass('close-text');
       }
-      });//окончание click
+    });//end click
+// end of expand
+
       }); // document ready end
+
+
+
+      $(document).ready(function() {
+      $('#gallery a').click(function(evt) {
+      	evt.preventDefault();
+      	var imgPath = $(this).attr('href');
+      	var oldImage = $('#photo img');
+      	var newImage = $('<img src="' + imgPath +'">');
+      	newImage.hide();
+      	$('#photo').prepend(newImage);
+      	newImage.fadeIn(1000);
+      	oldImage.fadeOut(1000,function(){
+      	$(this).remove();
+      }); //end fadeOut
+    }); // end click
+      $('#gallery a:first').click();
+
+      }); // end ready
